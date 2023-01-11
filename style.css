@@ -1,19 +1,21 @@
 .img1 {
-  content: url("https://picsum.photos/id/237/200/300");
+  content: url("https://source.unsplash.com/random/200x300?sig=1");
 }
 
 .img2 {
-  content: url("https://picsum.photos/seed/picsum/200/300");
+  content: url("https://source.unsplash.com/random/200x300?sig=2");
 }
 
 .img3 {
-  content: url("https://picsum.photos/200/300?grayscale");
+  content: url("https://source.unsplash.com/random/200x300?sig=3");
 }
+
 .img4 {
-  content: url("https://picsum.photos/200/300/");
+  content: url("https://source.unsplash.com/random/200x300");
 }
+
 .img5 {
-  content: url("https://picsum.photos/200/300.jpg");
+  content: url("https://source.unsplash.com/random/200x300?sig=4");
 }
 
 img {
@@ -31,10 +33,17 @@ img {
   border: 5px solid rgb(0, 195, 255);
 }
 
+h3 {
+  margin-top: 60px;
+  text-align: center;
+}
+
 p {
   text-align: center;
 }
 
 button {
   margin: 20px;
+  width: 100px;
+  height: 40px;
 }
